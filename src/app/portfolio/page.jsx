@@ -9,48 +9,6 @@ const PortfolioPage = () => {
 			<span className=' text-3xl text-gray-800'>Мои работы</span>
 
 			<div className='lg:px-[200px] md:px-[100px] mt-4 grid md:grid-cols-3 sm:grid-cols-2  grid-cols-3 gap-10 '>
-				<div className='overflow-hidden flex flex-col gap-3 w-full h-full'>
-					<span className=' text-[16px] bg-blue-900 rounded text-white'>
-						Магазин Vue3
-					</span>
-					<div className='hover:scale-105 duration-500 w-full'>
-						<Link href='http://telemost.online:4174'>
-							<img
-								className='object-cover h-[200px] w-full'
-								src='/777.png'
-								alt='#'
-							/>
-						</Link>
-					</div>
-				</div>
-				<div className='overflow-hidden flex flex-col gap-3 mb-5'>
-					<span className=' text-[16px] bg-blue-900 rounded text-white'>
-						Доставка Vue3
-					</span>
-					<div className='hover:scale-105 duration-500'>
-						<Link href='http://telemost.online:4173'>
-							<img
-								className='object-cover h-[200px] w-full'
-								src='/888.png'
-								alt='#'
-							/>
-						</Link>
-					</div>
-				</div>
-				<div className='overflow-hidden flex flex-col gap-3 '>
-					<span className=' text-[16px] bg-blue-900 rounded text-white'>
-						Поиск продуктов Vue3
-					</span>
-					<div className='hover:scale-105 duration-500'>
-						<Link href='http://telemost.online:4175'>
-							<img
-								className='object-cover h-[200px] w-full'
-								src='/999.png'
-								alt='#'
-							/>
-						</Link>
-					</div>
-				</div>
 				<div className='overflow-hidden flex flex-col gap-3 '>
 					<span className=' text-[16px] bg-blue-900 rounded text-white'>
 						Расходы React + Nest
@@ -137,6 +95,48 @@ const PortfolioPage = () => {
 							<img
 								className='object-cover h-[200px] w-full'
 								src='/555.png'
+								alt='#'
+							/>
+						</Link>
+					</div>
+				</div>
+				<div className='overflow-hidden flex flex-col gap-3 w-full h-full'>
+					<span className=' text-[16px] bg-blue-900 rounded text-white'>
+						Лэндинг Vue3
+					</span>
+					<div className='hover:scale-105 duration-500 w-full'>
+						<Link href='http://telemost.online:4174'>
+							<img
+								className='object-cover h-[200px] w-full'
+								src='/777.png'
+								alt='#'
+							/>
+						</Link>
+					</div>
+				</div>
+				<div className='overflow-hidden flex flex-col gap-3 mb-5'>
+					<span className=' text-[16px] bg-blue-900 rounded text-white'>
+						Лэндинг Vue3
+					</span>
+					<div className='hover:scale-105 duration-500'>
+						<Link href='http://telemost.online:4173'>
+							<img
+								className='object-cover h-[200px] w-full'
+								src='/888.png'
+								alt='#'
+							/>
+						</Link>
+					</div>
+				</div>
+				<div className='overflow-hidden flex flex-col gap-3 '>
+					<span className=' text-[16px] bg-blue-900 rounded text-white'>
+						Поиск продуктов Vue3
+					</span>
+					<div className='hover:scale-105 duration-500'>
+						<Link href='http://telemost.online:4175'>
+							<img
+								className='object-cover h-[200px] w-full'
+								src='/999.png'
 								alt='#'
 							/>
 						</Link>
