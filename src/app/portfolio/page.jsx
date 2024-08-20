@@ -10,11 +10,11 @@ const PortfolioPage = () => {
 
 			<div className='lg:px-[200px] md:px-[100px] mt-4 grid md:grid-cols-3 sm:grid-cols-2  grid-cols-3 gap-10 '>
 				<div className='overflow-hidden flex flex-col gap-3 '>
-					<span className=' text-[16px] bg-blue-900 rounded text-white'>
+					<span className=' text-[16px] bg-blue-900 rounded text-white shadow-md shadow-blue-800'>
 						Расходы React + Nest
 					</span>
-					<div className='hover:scale-105 duration-500'>
-						<Link href='http://telemost.online:4350'>
+					<div className='hover:scale-105 duration-500 overflow-hidden '>
+						<Link href='https://costs.telemost.online'>
 							<img
 								className='object-cover h-[200px] w-full'
 								src='/111.png'
@@ -24,11 +24,11 @@ const PortfolioPage = () => {
 					</div>
 				</div>
 				<div className='overflow-hidden flex flex-col gap-3 '>
-					<span className='text-[16px] bg-blue-900 rounded text-white z-auto'>
+					<span className='text-[16px] bg-blue-900 rounded text-white z-auto shadow-md shadow-blue-800'>
 						Магазин Next + Nest
 					</span>
 					<div className='hover:scale-105 duration-500 h-full w-full'>
-						<Link href='http://telemost.online:3000'>
+						<Link href='https://amazon.telemost.online'>
 							<img
 								className='object-cover h-[200px] w-full'
 								src='/222.png'
@@ -38,11 +38,11 @@ const PortfolioPage = () => {
 					</div>
 				</div>
 				<div className='overflow-hidden flex flex-col gap-3 '>
-					<span className=' text-[16px] bg-blue-900 rounded text-white'>
+					<span className=' text-[16px] bg-blue-900 rounded text-white shadow-md shadow-blue-800'>
 						Соц. сеть React + Express
 					</span>
 					<div className='hover:scale-105 duration-500'>
-						<Link href='http://telemost.online:4450'>
+						<Link href='https://posts.telemost.online'>
 							<img
 								className='object-cover h-[200px] w-full'
 								src='/333.png'
@@ -52,11 +52,11 @@ const PortfolioPage = () => {
 					</div>
 				</div>
 				<div className='overflow-hidden flex flex-col gap-3 '>
-					<span className=' text-[16px] bg-blue-900 rounded text-white'>
+					<span className=' text-[16px] bg-blue-900 rounded text-white shadow-md shadow-blue-800'>
 						Аренда Next + Graphql Appwrite
 					</span>
 					<div className='hover:scale-105 duration-500'>
-						<Link href='http://telemost.online:5000'>
+						<Link href='https://cars.telemost.online'>
 							<img
 								className='object-cover h-[200px] w-full'
 								src='/444.png'
@@ -67,7 +67,7 @@ const PortfolioPage = () => {
 				</div>
 
 				<div className='overflow-hidden relative group flex flex-col gap-3 '>
-					<span className=' text-[16px] bg-blue-900 rounded text-white'>
+					<span className=' text-[16px] bg-blue-900 rounded text-white shadow-md shadow-blue-800'>
 						React native app
 					</span>
 					<div className='w-full h-[200px] group-hover:scale-105 duration-500'>
@@ -87,11 +87,11 @@ const PortfolioPage = () => {
 				</div>
 
 				<div className='overflow-hidden flex flex-col gap-3 '>
-					<span className=' text-[16px] bg-blue-900 rounded text-white'>
+					<span className=' text-[16px] bg-blue-900 rounded text-white shadow-md shadow-blue-800'>
 						Простой чат React
 					</span>
 					<div className='hover:scale-105 duration-500'>
-						<Link href='http://telemost.online:7778'>
+						<Link href='https://chat.telemost.online'>
 							<img
 								className='object-cover h-[200px] w-full'
 								src='/555.png'
@@ -101,11 +101,11 @@ const PortfolioPage = () => {
 					</div>
 				</div>
 				<div className='overflow-hidden flex flex-col gap-3 w-full h-full'>
-					<span className=' text-[16px] bg-blue-900 rounded text-white'>
+					<span className=' text-[16px] bg-blue-900 rounded text-white shadow-md shadow-blue-800'>
 						Лэндинг Vue3
 					</span>
 					<div className='hover:scale-105 duration-500 w-full'>
-						<Link href='http://telemost.online:4174'>
+						<Link href='https://marketplace.telemost.online'>
 							<img
 								className='object-cover h-[200px] w-full'
 								src='/777.png'
@@ -115,11 +115,11 @@ const PortfolioPage = () => {
 					</div>
 				</div>
 				<div className='overflow-hidden flex flex-col gap-3 mb-5'>
-					<span className=' text-[16px] bg-blue-900 rounded text-white'>
+					<span className=' text-[16px] bg-blue-900 rounded text-white shadow-md shadow-blue-800'>
 						Лэндинг Vue3
 					</span>
 					<div className='hover:scale-105 duration-500'>
-						<Link href='http://telemost.online:4173'>
+						<Link href='https://removals.telemost.online'>
 							<img
 								className='object-cover h-[200px] w-full'
 								src='/888.png'
@@ -129,11 +129,11 @@ const PortfolioPage = () => {
 					</div>
 				</div>
 				<div className='overflow-hidden flex flex-col gap-3 '>
-					<span className=' text-[16px] bg-blue-900 rounded text-white'>
+					<span className=' text-[16px] bg-blue-900 rounded text-white shadow-md shadow-blue-800'>
 						Поиск продуктов Vue3
 					</span>
 					<div className='hover:scale-105 duration-500'>
-						<Link href='http://telemost.online:4175'>
+						<Link href='https://meals.telemost.online'>
 							<img
 								className='object-cover h-[200px] w-full'
 								src='/999.png'
